@@ -61,7 +61,7 @@ const Extension = GObject.registerClass(
             });
 
             let preflabBtn = new St.Button({ y_align: Clutter.ActorAlign.CENTER, label: _('Settings') });
-            preflabBtn('clicked', () => {
+            preflabBtn.connect('clicked', () => {
                 this.menu.actor.hide();
                 ExtensionUtils.openPrefs();
             });
