@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="PingIndic">
+    <schema path="/org/gnome/shell/extensions/pingindic/" id="org.gnome.shell.extensions.pingindic">
+        <key type="i" name="update-interval">
+            <default>15</default>
+            <summary>Delay(sec)</summary>
+            <description>Delay between ping .</description>
+        </key>
+        <key type="s" name="adress">
+            <default>'8.8.8.8'</default>
+            <summary>Adress to Ping</summary>
+            <description>Adress to ping.</description>
+        </key>
+        <key type="i" name="limitforgood">
+            <default>75</default>
+            <summary>Limit for good ping(ms)</summary>
+        </key>
+        <key type="i" name="limitforbad">
+            <default>150</default>
+            <summary>Limit for bad ping(ms)</summary>
+        </key>
+        <key type="s" name="color-good">
+            <default>'#00FF00'</default>
+            <summary>Color for good ping</summary>
+            <description>Color to display when ping is good (hex format).</description>
+        </key>
+        <key type="s" name="color-nogood">
+            <default>'#FFFF00'</default>
+            <summary>Color for average ping</summary>
+            <description>Color to display when ping is average (hex format).</description>
+        </key>
+        <key type="s" name="color-bad">
+            <default>'#FF0000'</default>
+            <summary>Color for bad ping</summary>
+            <description>Color to display when ping is bad (hex format).</description>
+        </key>
+        <key type="b" name="remove-decimals">
+            <default>false</default>
+            <summary>Remove decimals from ping time</summary>
+            <description>When enabled, removes decimal places from ping time display (shows whole milliseconds only).</description>
+        </key>
+    </schema>
+</schemalist>
