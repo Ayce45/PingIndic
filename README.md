@@ -27,7 +27,7 @@ This project is a fork of the original code by xynium, with enhancements and add
 ### Settings Dialog
 <img width="636" height="575" alt="Capture d’écran du 2025-09-18 15-43-26" src="https://github.com/user-attachments/assets/8468713f-db3f-445f-8a66-f442c4428ea9" />
 
-## Installation (Merged Instructions)
+## Installation
 
 Clone the repository:
 
