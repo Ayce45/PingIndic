@@ -20,10 +20,12 @@ This project is a fork of the original code by xynium, with enhancements and add
 ## Screenshots
 
 ### Widget in Panel
-<!-- Place screenshot of the widget here -->
+<img width="327" height="36" alt="Capture d’écran du 2025-09-18 15-29-18" src="https://github.com/user-attachments/assets/e774dd2f-7738-4a7a-a49f-40384c09e18d" />
+<img width="327" height="36" alt="Capture d’écran du 2025-09-18 15-33-53" src="https://github.com/user-attachments/assets/cbfc119a-60ab-48e2-ae96-002c55326538" />
+<img width="327" height="36" alt="Capture d’écran du 2025-09-18 15-43-04" src="https://github.com/user-attachments/assets/86854d2f-bf5b-445e-adbf-b374e59893e3" />
 
 ### Settings Dialog
-<!-- Place screenshot of the settings dialog here -->
+<img width="636" height="575" alt="Capture d’écran du 2025-09-18 15-43-26" src="https://github.com/user-attachments/assets/8468713f-db3f-445f-8a66-f442c4428ea9" />
 
 ## Installation (Merged Instructions)
 
