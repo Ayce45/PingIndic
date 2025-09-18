@@ -2,11 +2,11 @@
 PingIndic GNOME Shell Extension
 ==============================
 
+
 PingIndic is a GNOME Shell extension that provides a network ping indicator directly in your system panel. It allows you to monitor your network latency in real time, with a convenient widget and customizable settings.
 
 This project is a fork of the original code by xynium, with enhancements and additional features.
 
----
 
 ## Features
 
@@ -25,15 +25,26 @@ This project is a fork of the original code by xynium, with enhancements and add
 ### Settings Dialog
 <!-- Place screenshot of the settings dialog here -->
 
----
+## Installation (Merged Instructions)
 
-## Installation
+Clone the repository:
 
-1. Clone or download this repository.
-2. Copy the `pingindic@Ayce45.github.com` folder to your GNOME Shell extensions directory:
-	- `~/.local/share/gnome-shell/extensions/`
-3. Restart GNOME Shell (press <kbd>Alt</kbd>+<kbd>F2</kbd>, type `r`, and press <kbd>Enter</kbd>), or log out and log back in.
-4. Enable the extension using GNOME Tweaks or Extensions app.
+```sh
+git clone https://github.com/Ayce45/PingIndic.git
+```
+
+Copy the extension to your GNOME extensions directory:
+
+```sh
+cp -r PingIndic/pingindic@Ayce45.github.com ~/.local/share/gnome-shell/extensions/
+```
+
+3. Restart GNOME Shell (press Alt+F2, type `r`, and press Enter), or log out and log back in.
+4. Enable the extension:
+
+```sh
+gnome-extensions enable pingindic@Ayce45.github.com
+```
 
 ---
 
